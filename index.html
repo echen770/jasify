@@ -1,98 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-</head>
+  </head>
 
-<body>
+  <body style="padding: 5rem">
     <h1>heading 1</h1>
     <h2>heading 2</h2>
     <h3>heading 3</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsam pariatur soluta. Minus culpa itaque blanditiis tempora accusamus quod nostrum?</p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsam
+      pariatur soluta. Minus culpa itaque blanditiis tempora accusamus quod
+      nostrum?
+    </p>
     <a href="#" class="link-arrow">learn more</a>
     <span class="badge badge--secondary badge--small">10% OFF</span>
     <ul class="list list--tick">
-        <li class="list__item">item 2</li>
-        <li class="list__item">item 1</li>
-        <li class="list__item">item 3</li>
+      <li class="list__item">item 2</li>
+      <li class="list__item">item 1</li>
+      <li class="list__item">item 3</li>
     </ul>
     <span class="icon-container">
-        <svg class="icon icon--primary">
-            <use xlink:href="images/sprite.svg#wordpress"></use>
-        </svg>
+      <svg class="icon icon--primary">
+        <use xlink:href="images/sprite.svg#wordpress"></use>
+      </svg>
     </span>
     <button class="btn btn--primary btn--block">get started</button>
     <a href="#" class="btn btn--secondary btn--block">buy now</a>
     <div class="input-group">
-        <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#wordpress"></use>
-            </svg>
-        </span>
-        <input type="text" class="input" placeholder="Enter domain name here..." >
-        <button class="btn btn--accent">
-              Search
-        </button>
+      <span class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#wordpress"></use>
+        </svg>
+      </span>
+      <input
+        type="text"
+        class="input"
+        placeholder="Enter domain name here..."
+      />
+      <button class="btn btn--accent">Search</button>
     </div>
-    <div style="width: 50%;">
-        <div class="plan plan--popular">
-            <div class="card card--secondary">
-                <header class="card__header">
-                    <h3 class="plan__name" >Entry</h3>
-                    <span class="plan__price">$14</span>
-                    <span class="plan__billing-cycle">/month</span>
-                    <span class="badge badge--secondary badge--small">10% OFF</span>
-                    <span class="plan__description">Easy start on the cloud</span>
-                </header>
-                <div class="card__body">
-                    <ul class="list list--tick">
-                        <li class="list__item">Unlimited Websites</li>
-                        <li class="list__item">Unlimited Bandwidth</li>
-                        <li class="list__item">100 GB SSD Storage</li>
-                        <li class="list__item">3 GB RAM</li>
-                    </ul>
-                    <button class="btn btn--outline btn--block">buy now</button>
-                </div>
-            </div>
+    <div style="width: 50%">
+      <div class="plan plan--popular">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3 class="plan__name">Entry</h3>
+            <span class="plan__price">$14</span>
+            <span class="plan__billing-cycle">/month</span>
+            <span class="badge badge--secondary badge--small">10% OFF</span>
+            <span class="plan__description">Easy start on the cloud</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Unlimited Websites</li>
+              <li class="list__item">Unlimited Bandwidth</li>
+              <li class="list__item">100 GB SSD Storage</li>
+              <li class="list__item">3 GB RAM</li>
+            </ul>
+            <button class="btn btn--outline btn--block">buy now</button>
+          </div>
         </div>
+      </div>
     </div>
     <div class="media">
-        <div class="media__image">
-            <svg class="icon icon--primary">
-                <use xlink:href="images/sprite.svg#snap"></use>
-            </svg>
-        </div>
-        <div class="media__body">
-            <h3 class="media__title">Easy Start & Managed Updates</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, doloremque! Quod, nemo harum cumque officiis ratione nobis debitis. Pariatur, alias?</p>
-        </div>
-    </div>
-    <blockquote class="quote" >
-        <p class="quote__text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, tenetur fugiat est inventore veritatis animi reprehenderit! Eum cumque mollitia aperiam?
+      <div class="media__image">
+        <svg class="icon icon--primary">
+          <use xlink:href="images/sprite.svg#snap"></use>
+        </svg>
+      </div>
+      <div class="media__body">
+        <h3 class="media__title">Easy Start & Managed Updates</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur,
+          doloremque! Quod, nemo harum cumque officiis ratione nobis debitis.
+          Pariatur, alias?
         </p>
-        <footer>
-            <div class="media">
-                <div class="media__image">
-                  <svg class="icon icon--primary quote__line">
-                    <use xlink:href="images/sprite.svg#line"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title quote__author">John Smith</h3>
-                  <p class="quote__company" >ABC Company</p>
-                </div>
-              </div>              
-        </footer>
+      </div>
+    </div>
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Exercitationem, tenetur fugiat est inventore veritatis animi
+        reprehenderit! Eum cumque mollitia aperiam?
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">John Smith</h3>
+            <p class="quote__company">ABC Company</p>
+          </div>
+        </div>
+      </footer>
     </blockquote>
-</body>
-
+    <div class="card testimonial">
+      <div class="grid grid--1x2">
+        <div class="testimonial__image-container">
+          <img class="testimonial__image" src="images/testimonial.jpg" alt="" />
+          <span class="icon-container">
+            <svg class="icon icon--accent icon--small">
+              <use xlink:href="images/sprite.svg#quotes"></use>
+            </svg>
+          </span>
+        </div>
+        <blockquote class="quote">
+          <p class="quote__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Exercitationem, tenetur fugiat est inventore veritatis animi
+            reprehenderit! Eum cumque mollitia aperiam?
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary quote__line">
+                  <use xlink:href="images/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__author">John Smith</h3>
+                <p class="quote__company">ABC Company</p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+    <div class="callout callout--primary">
+      <div class="grid grid--1x2">
+        <div class="callout__content">
+          <h2 class="callout__heading" >Ready To Get Started?</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reiciendis odio vitae aliquam illum ad fugiat dolorum ea beatae nam?</p>
+        </div>
+        <a href="#" class="btn btn--secondary btn--stretched">get started</a>
+      </div>
+    </div>
+  </body>
 </html>

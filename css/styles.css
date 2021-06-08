@@ -337,7 +337,15 @@ a {
   background: #02cdf1;
 }
 
+.card--primary .badge--primary {
+  background: #126de4;
+}
+
 /* plans */
+
+.plan {
+  transition: transform 0.2s ease-out;
+}
 
 .plan__name {
   color: white;
@@ -741,4 +749,29 @@ a {
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
+}
+
+/* Plans Block */
+
+.block-plans .grid {
+  gap: 4rem;
+}
+
+.block-plans .plan {
+  align-self: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.block-plans .list {
+  min-height: 25.3rem;
+}
+
+.block-plans .plan--popular .card__header,
+.block-plans .plan--popular .list {
+  padding-bottom: 6rem;
+}
+
+.block-plans .plan:hover {
+  transform: scale(105%);
 }
